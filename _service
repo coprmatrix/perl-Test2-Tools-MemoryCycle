@@ -2,5 +2,6 @@
   <service name="cpanspec" mode="manual">
     <param name="source">Test2::Tools::MemoryCycle</param>
     <param name="add-provides">perl(Test2::Tools::MemoryCycle)</param>
+    <param name="add-buildrequires">make</param>
   </service>
 </services>
